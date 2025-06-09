@@ -1,11 +1,15 @@
-# Fruity Fox 🦊 Skin for Firefox  
+# Fruity Fox 🦊 Skin for Firefox (gwfox)  
 *Inspired by Arc and Zen — A clean, modern, minimalistic UI skin for Firefox*
 
+
+
+
+![GWFox Theme Preview](https://github.com/rakhalfps/gwfox-css/blob/c5bff073d546a7732f3fdaa048b680aadddec0a5/IMAGES/8.jpg?raw=true)
 ---
 
 ## Introduction
 
-Welcome to **Fruity Fox 🦊**, a sleek Firefox skin inspired by the popular Arc and Zen themes known for their minimalist and elegant user interfaces. This theme focuses on clean lines, subtle color accents, and a distraction-free browsing experience. Whether you're a macOS or Windows user, Fruity Fox enhances your Firefox interface with a modern and fresh look that adapts to your system’s light or dark mode preferences.
+Welcome to **Fruity Fox 🦊 (gwfox)**, a sleek Firefox skin inspired by the popular Arc and Zen themes known for their minimalist and elegant user interfaces. This theme focuses on clean lines, subtle color accents, and a distraction-free browsing experience. Whether you're a macOS or Windows user, Fruity Fox enhances your Firefox interface with a modern and fresh look that adapts to your system’s light or dark mode preferences.
 
 ---
 
@@ -23,10 +27,13 @@ Firefox’s default interface is functional but sometimes cluttered. Many users 
 
 ## Compatibility
 
-| Platform | Firefox Version | Notes                       |
-| -------- | --------------- | ---------------------------|
-| Windows  | 138+            | Supports Mica effect        |
+| Platform | Firefox Version | Notes                                      |
+| -------- | --------------- | ------------------------------------------|
+| Windows  | 138+            | Supports Mica effect (Windows 11 only)    |
 | macOS    | 138+            | Supports native context menu tweaks (optional)  |
+
+> **Note:**  
+> The transparent Mica effect works only on Windows 11 and macOS. It does **not** work on Windows 10 or Linux. Linux support is currently partial and untested.
 
 ---
 
@@ -35,7 +42,7 @@ Firefox’s default interface is functional but sometimes cluttered. Many users 
 - **Minimal toolbar with button limit:** Supports up to 4 buttons on the left and 4 on the right to maintain balance and simplicity  
 - **Bottom-positioned bookmark toolbar:** Keeps the top clean; you can re-enable or reposition if preferred  
 - **Light & dark mode support:** Automatically switches based on system settings  
-- **Mica effect support on Windows:** Adds modern translucency for better aesthetics  
+- **Mica effect support on Windows:** Adds modern translucency for better aesthetics (Windows 11 only)  
 - **Custom SVG properties enabled:** Ensures crisp, smooth icons and UI elements  
 - **Disables animations and color overrides** that conflict with the theme’s style  
 
@@ -43,7 +50,7 @@ Firefox’s default interface is functional but sometimes cluttered. Many users 
 
 ## Installation Guide
 
-Please refer to [Install.md](./Install.md) for detailed installation instructions.
+Please refer to the [Install Guide](https://github.com/rakhalfps/gwfox-css/blob/fe6daa58bdf9acd5d6099267740c439857e53c2c/INSTALL.md) for detailed installation instructions.
 
 ---
 
@@ -76,27 +83,30 @@ Once you’ve copied the files and set the preferences:
 
 ---
 
-## Image Preview
+## Image Preview (gwfox)
 
-<div style="border: 1px solid #ccc; border-radius: 12px; padding: 20px; max-width: 900px; margin: 0 auto 40px auto; background-color: #f9f9f9;">
+<div style="border: 1px solid #ccc; border-radius: 12px; padding: 16px; margin: 20px auto; max-width: 960px;">
 
-### Fruity Fox Skin Showcase
-
-Explore the sleek look of Fruity Fox with these side-by-side screenshots showcasing the clean UI and modern styling in both light and dark modes.
-
-<div style="display: flex; justify-content: center; gap: 24px; margin-bottom: 24px;">
-  <img src="https://github.com/rakhalfps/gwfox-css/raw/dc99d35b3e1aa92994f272d52f98bfea250782dd/IMAGES/1.png" alt="Fruity Fox Screenshot 1" width="400" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.25);">
-  <img src="https://github.com/rakhalfps/gwfox-css/raw/dc99d35b3e1aa92994f272d52f98bfea250782dd/IMAGES/2.png" alt="Fruity Fox Screenshot 2" width="400" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.25);">
+### Preview 1  
+<div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+<img src="https://github.com/rakhalfps/gwfox-css/raw/dc99d35b3e1aa92994f272d52f98bfea250782dd/IMAGES/1.png" alt="Fruity Fox Screenshot 1" width="460" style="border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.25);">
+<img src="https://github.com/rakhalfps/gwfox-css/raw/dc99d35b3e1aa92994f272d52f98bfea250782dd/IMAGES/2.png" alt="Fruity Fox Screenshot 2" width="460" style="border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.25);">
 </div>
 
-<div style="display: flex; justify-content: center; gap: 24px; margin-bottom: 24px;">
-  <img src="https://github.com/rakhalfps/gwfox-css/raw/dc99d35b3e1aa92994f272d52f98bfea250782dd/IMAGES/3.png" alt="Fruity Fox Screenshot 3" width="400" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.25);">
-  <img src="https://github.com/rakhalfps/gwfox-css/raw/dc99d35b3e1aa92994f272d52f98bfea250782dd/IMAGES/5.png" alt="Fruity Fox Screenshot 5" width="400" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.25);">
+---
+
+### Preview 2  
+<div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+<img src="https://github.com/rakhalfps/gwfox-css/raw/dc99d35b3e1aa92994f272d52f98bfea250782dd/IMAGES/3.png" alt="Fruity Fox Screenshot 3" width="460" style="border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.25);">
+<img src="https://github.com/rakhalfps/gwfox-css/raw/dc99d35b3e1aa92994f272d52f98bfea250782dd/IMAGES/5.png" alt="Fruity Fox Screenshot 5" width="460" style="border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.25);">
 </div>
 
-<div style="display: flex; justify-content: center; gap: 24px;">
-  <img src="https://github.com/rakhalfps/gwfox-css/raw/dc99d35b3e1aa92994f272d52f98bfea250782dd/IMAGES/6.png" alt="Fruity Fox Screenshot 6" width="400" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.25);">
-  <img src="https://github.com/rakhalfps/gwfox-css/raw/dc99d35b3e1aa92994f272d52f98bfea250782dd/IMAGES/7.png" alt="Fruity Fox Screenshot 7" width="400" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.25);">
+---
+
+### Preview 3  
+<div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+<img src="https://github.com/rakhalfps/gwfox-css/raw/dc99d35b3e1aa92994f272d52f98bfea250782dd/IMAGES/6.png" alt="Fruity Fox Screenshot 6" width="460" style="border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.25);">
+<img src="https://github.com/rakhalfps/gwfox-css/raw/dc99d35b3e1aa92994f272d52f98bfea250782dd/IMAGES/7.png" alt="Fruity Fox Screenshot 7" width="460" style="border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.25);">
 </div>
 
 </div>
@@ -145,17 +155,4 @@ A: Because this skin relies on Firefox’s userChrome.css, some updates might re
 Your feedback and contributions are highly appreciated! Feel free to:
 
 - Open issues for bugs or feature requests  
-- Submit pull requests for improvements or additional compatibility  
-- Share your customized versions or ideas  
-
----
-
-## License
-
-This project is licensed under the **MIT License** — free to use, modify, and share with attribution.
-
----
-
-## Final Words
-
-Thank you for trying **Fruity Fox 🦊**! We hope this skin brings you a refreshing, elegant, and enjoyable Firefox experience. Happy browsing!
+- Submit pull reque
