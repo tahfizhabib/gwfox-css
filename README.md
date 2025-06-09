@@ -1,9 +1,3 @@
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/d7699474-d17b-4560-a9d6-9e1ecaac0ba5">
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/90f88774-2886-4a02-aae8-6814f3199adb">
-  <img width="1495" alt="Theme Preview">
-</picture>
-
 # Fruity Fox 🦊 Skin for Firefox  
 *Inspired by Arc and Zen — A clean, modern, minimalistic UI skin for Firefox*
 
@@ -49,20 +43,7 @@ Firefox’s default interface is functional but sometimes cluttered. Many users 
 
 ## Installation Guide
 
-### Step 1: Download
-
-Download the latest `chrome` folder from this repository’s release or source files.
-
-### Step 2: Locate Firefox Profile Folder
-
-- Open Firefox  
-- Go to `about:support`  
-- Find **Profile Folder** and click **Open Folder** (this opens the directory where Firefox stores user data)
-
-### Step 3: Install Theme Files
-
-- Copy the downloaded `chrome` folder into your Firefox profile directory  
-- If a `chrome` folder already exists, back it up or replace it
+Please refer to [Install.md](./Install.md) for detailed installation instructions.
 
 ---
 
@@ -95,6 +76,33 @@ Once you’ve copied the files and set the preferences:
 
 ---
 
+## Image Preview
+
+<div style="border: 1px solid #ccc; border-radius: 12px; padding: 20px; max-width: 900px; margin: 0 auto 40px auto; background-color: #f9f9f9;">
+
+### Fruity Fox Skin Showcase
+
+Explore the sleek look of Fruity Fox with these side-by-side screenshots showcasing the clean UI and modern styling in both light and dark modes.
+
+<div style="display: flex; justify-content: center; gap: 24px; margin-bottom: 24px;">
+  <img src="https://github.com/rakhalfps/gwfox-css/raw/dc99d35b3e1aa92994f272d52f98bfea250782dd/IMAGES/1.png" alt="Fruity Fox Screenshot 1" width="400" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.25);">
+  <img src="https://github.com/rakhalfps/gwfox-css/raw/dc99d35b3e1aa92994f272d52f98bfea250782dd/IMAGES/2.png" alt="Fruity Fox Screenshot 2" width="400" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.25);">
+</div>
+
+<div style="display: flex; justify-content: center; gap: 24px; margin-bottom: 24px;">
+  <img src="https://github.com/rakhalfps/gwfox-css/raw/dc99d35b3e1aa92994f272d52f98bfea250782dd/IMAGES/3.png" alt="Fruity Fox Screenshot 3" width="400" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.25);">
+  <img src="https://github.com/rakhalfps/gwfox-css/raw/dc99d35b3e1aa92994f272d52f98bfea250782dd/IMAGES/5.png" alt="Fruity Fox Screenshot 5" width="400" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.25);">
+</div>
+
+<div style="display: flex; justify-content: center; gap: 24px;">
+  <img src="https://github.com/rakhalfps/gwfox-css/raw/dc99d35b3e1aa92994f272d52f98bfea250782dd/IMAGES/6.png" alt="Fruity Fox Screenshot 6" width="400" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.25);">
+  <img src="https://github.com/rakhalfps/gwfox-css/raw/dc99d35b3e1aa92994f272d52f98bfea250782dd/IMAGES/7.png" alt="Fruity Fox Screenshot 7" width="400" style="border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.25);">
+</div>
+
+</div>
+
+---
+
 ## Customization Tips
 
 - **Toolbar buttons:** Keep the number of toolbar buttons to a max of 4 on the left and 4 on the right for best visual balance.  
@@ -113,22 +121,6 @@ Once you’ve copied the files and set the preferences:
 | Buttons don’t align properly  | Reduce toolbar buttons to max 4 left + 4 right. Check for any extensions affecting UI.   |
 | Mica effect not visible       | Confirm Windows version supports Mica (Windows 11+). Preference must be `true`.         |
 | Bookmarks toolbar missing     | Enable it via toolbar customization or modify userChrome.css accordingly.               |
-
----
-
-## Showcase
-
-<div style="border: 1px solid #ccc; border-radius: 8px; padding: 16px; margin: 20px auto; max-width: 800px;">
-
-### Light Mode Preview  
-<img src="https://github.com/user-attachments/assets/d7699474-d17b-4560-a9d6-9e1ecaac0ba5" alt="Light Mode Preview" style="width: 100%; border-radius: 6px;">
-
----
-
-### Dark Mode Preview  
-<img src="https://github.com/user-attachments/assets/90f88774-2886-4a02-aae8-6814f3199adb" alt="Dark Mode Preview" style="width: 100%; border-radius: 6px;">
-
-</div>
 
 ---
 
@@ -166,7 +158,4 @@ This project is licensed under the **MIT License** — free to use, modify, and 
 
 ## Final Words
 
-Thank you for trying **Fruity Fox 🦊**! We hope this skin brings you a refreshing, elegant, and enjoyable Firefox experience. Happy browsing! 🍊🦊
-
----
-
+Thank you for trying **Fruity Fox 🦊**! We hope this skin brings you a refreshing, elegant, and enjoyable Firefox experience. Happy browsing!
