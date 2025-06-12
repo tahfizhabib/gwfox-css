@@ -1,31 +1,54 @@
-<picture>
-<source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/d7699474-d17b-4560-a9d6-9e1ecaac0ba5">
-<source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/90f88774-2886-4a02-aae8-6814f3199adb">
-<img width="1495" alt="01">
-</picture>
+# GWFox (A Firefox Fluent CSS Theme)
 
-- 本主题适用Firefox 138+ `Mac` `Win` *
+![Theme Preview](https://github.com/user-attachments/assets/d7699474-d17b-4560-a9d6-9e1ecaac0ba5)
 
-- 书签工具栏隐藏在底部
+**Compatible with Firefox 138+**  
+Supports macOS and Windows  
+Bookmarks Toolbar is hidden at the bottom by default
 
-## 使用方法
+---
 
-- 把下载的 `chrome` 文件夹放入火狐 `配置文件夹` 内
+## Download
 
-- 在 `about:config` 页面中搜索以下布尔值切换为 `true`
+Download the latest release here:  
+[gwfox-2.4.zip](https://github.com/rakhalfps/gwfox-css/releases/download/gwfox2.4/gwfox-2.4.zip)
 
-  - `toolkit.legacyUserProfileCustomizations.stylesheets`
+---
 
-  - `svg.context-properties.content.enabled`
- 
-  - `widget.windows.mica` *
- 
-- 以下布尔值切换为 `false`
- 
-  - `browser.urlbar.scotchBonnet.enableOverride`
- 
-  - `sidebar.animation.enabled`
- 
-  - `widget.macos.native-context-menus` (可选项)
+## Installation Guide
 
-- 重启火狐
+1. Place the `chrome` folder and `user.js` file into your Firefox profile directory.
+
+2. Open `about:config` in Firefox and set the following:
+
+   - Set to `true`:
+     - `toolkit.legacyUserProfileCustomizations.stylesheets`
+     - `svg.context-properties.content.enabled`
+     - `widget.windows.mica` *(Windows only)*
+
+   - Set to `false`:
+     - `browser.urlbar.scotchBonnet.enableOverride`
+     - `sidebar.animation.enabled`
+     - `widget.macos.native-context-menus` *(Optional for macOS)*
+
+3. Restart Firefox to apply the theme.
+
+---
+
+## Important Notes
+
+- The theme automatically adapts to your system’s light or dark mode.
+- UI elements including tabs, sidebars, and the address bar are fully restyled.
+- Toolbar buttons can be freely added, removed, or reordered without limits.
+- Tested on Firefox 138+ for macOS and Windows.
+- Bookmarks Toolbar is hidden at the bottom by default for a clean interface.
+
+---
+
+## License
+
+MIT License
+
+---
+
+Designed for minimalism and full control.
