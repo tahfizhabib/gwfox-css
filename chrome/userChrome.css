@@ -303,6 +303,30 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
   background: var(--button-active-bgcolor);
 }
 }
+
+:has(#sidebar-main:not([hidden])) {
+.browserStack {
+  margin-left: 0;
+}
+
+.devtools-toolbox-side-iframe:first-child {
+  margin-left: 0 !important;
+  margin-right: 8px !important;
+}
+
+.devtools-toolbox-bottom-iframe {
+  margin-left: 0 !important;
+}
+
+#sidebar-box {
+&:not([sidebar-positionend]) {
+&[sidebar-panel-open] {
+  margin-inline-end: 2px !important;
+  margin-bottom: 2px !important;
+}
+}
+}
+}
 }
 
 /* urlbar */
@@ -855,9 +879,18 @@ tab .tab-label {
   margin-bottom: 1px !important;
 }
 
-#tabbrowser-tabs[orient="horizontal"] {
+#tabbrowser-tabs[orient="horizontal"]:not([overflow]) {
   margin-inline-start: 0 !important;
   padding-inline-start: 0 !important;
+}
+
+#tabbrowser-tabs[orient="horizontal"][overflow] {
+  padding-inline-start: calc(var(--tab-overflow-pinned-tabs-width) - 2px) !important;
+  margin-inline-start: 0 !important;
+}
+
+#tabbrowser-tabs[orient="horizontal"][overflow]:has([pinned]) {
+  padding-inline-start: var(--tab-overflow-pinned-tabs-width) !important;
 }
 
 #tabbrowser-tabs {
@@ -1749,26 +1782,22 @@ span:active > img:is([src="chrome://browser/skin/history.svg"], [src="chrome://b
 
 :has(#sidebar-main:not([hidden])) {
 #PersonalToolbar {
-  margin-left: 57.5px !important;
-  width: calc(100% - 65.5px);
+  margin-left: 49.5px !important;
+  width: calc(100% - 57.5px);
 }
 }
 
 :has(#sidebar-box:not([hidden])) {
 #PersonalToolbar {
-  margin-left: 329.5px !important;
-  width: calc(100% - 337.5px);
-}
-
-#sidebar-box {
-  margin-right: -8px !important;
+  margin-left: 331px !important;
+  width: calc(100% - 339px);
 }
 }
 
 :has(#sidebar-box[sidebarcommand="viewGenaiChatSidebar"]:not([hidden])) {
 #PersonalToolbar {
-  margin-left: 449px !important;
-  width: calc(100% - 457px);
+  margin-left: 451px !important;
+  width: calc(100% - 459px);
 }
 }
 }
@@ -2033,19 +2062,19 @@ tab-group > .tabbrowser-tab,
 
 :has(#sidebar-box:not([hidden])) {
 #PersonalToolbar {
-  margin-left: 499px !important;
-  width: calc(100% - 507px);
+  margin-left: 501px !important;
+  width: calc(100% - 509px);
 }
 
 #sidebar-box {
-  margin-right: -8px !important;
+  margin-right: -6px !important;
 }
 }
 
 :has(#sidebar-box[sidebarcommand="viewGenaiChatSidebar"]:not([hidden])) {
 #PersonalToolbar {
-  margin-left: 619px !important;
-  width: calc(100% - 627px);
+  margin-left: 621px !important;
+  width: calc(100% - 629px);
 }
 }
 
