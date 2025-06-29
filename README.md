@@ -1,36 +1,89 @@
 <picture>
-<source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/d7699474-d17b-4560-a9d6-9e1ecaac0ba5">
-<source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/90f88774-2886-4a02-aae8-6814f3199adb">
-<img width="1495" alt="01">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/d7699474-d17b-4560-a9d6-9e1ecaac0ba5">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/90f88774-2886-4a02-aae8-6814f3199adb">
+  <img width="1495" alt="GWfox UI Preview">
 </picture>
-<br><br>
 
-- 本主题适用Firefox 138+ `Mac` `Win` *
+<br>
 
-## 使用方法
+# GWfox UI – Custom Firefox Theme (Minimal / System Native)
 
-- 把下载的 `chrome` 文件夹放入火狐 `配置文件夹` 内
+A refined user interface for Firefox 138+, inspired by native OS styling.
+Supports Windows and macOS.\*
 
-- 在 `about:config` 页面中搜索以下布尔值切换为 `true`
+---
 
-  - `toolkit.legacyUserProfileCustomizations.stylesheets`
+## Installation Guide
 
-  - `svg.context-properties.content.enabled`
- 
-  - `widget.windows.mica` *
- 
-  - `widget.windows.mica.toplevel-backdrop` 设为 `2` *
- 
-- 以下布尔值切换为 `false`
-  
-  - `sidebar.animation.enabled`
- 
-  - `widget.macos.native-context-menus` (可选项)
+> Place the `chrome` folder into your Firefox profile directory and configure the required preferences below.
 
-- 重启火狐
+### Windows Setup
 
-## 样式调整
+```bash
+1. Go to: about:profiles
+2. Click "Open Folder" for your current profile
+3. Copy the `chrome` folder into that location
+```
 
-- 书签工具栏隐藏至底部，地址栏置于侧栏，简洁模式，macOS样式窗口控件 * 等
+```text
+Open about:config and set the following:
 
-  在 `about:config` 页面添加 `gwfox.plus` 布尔值设为 `true` 启用
+[Enable]
+toolkit.legacyUserProfileCustomizations.stylesheets → true
+svg.context-properties.content.enabled             → true
+widget.windows.mica                               → true
+widget.windows.mica.toplevel-backdrop             → 2
+
+[Disable]
+sidebar.animation.enabled                          → false
+```
+
+Then restart Firefox.
+
+---
+
+### macOS Setup
+
+```bash
+1. Go to: about:profiles
+2. Click "Show in Finder" for your current profile
+3. Copy the `chrome` folder into that location
+```
+
+```text
+Open about:config and set the following:
+
+[Enable]
+toolkit.legacyUserProfileCustomizations.stylesheets → true
+svg.context-properties.content.enabled             → true
+
+[Disable]
+sidebar.animation.enabled                          → false
+widget.macos.native-context-menus                  → false (optional)
+```
+
+Then restart Firefox.
+
+---
+
+## Optional Features
+
+To enable additional tweaks like:
+
+* Vertical address bar in sidebar
+* macOS-style window buttons
+* Hidden bookmark bar
+
+Open `about:config` and:
+
+```text
+Add Boolean → gwfox.plus → true
+```
+
+---
+
+## Notes
+
+* Firefox 138+ required (Nightly or Developer Edition recommended)
+* Windows visual effects depend on system theme and GPU support
+* macOS features may vary slightly depending on OS version
