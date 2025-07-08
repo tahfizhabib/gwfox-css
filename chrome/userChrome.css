@@ -771,6 +771,13 @@ toolbarspring {
 }
 }
 
+#sidebar-button > .toolbarbutton-badge-stack {
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 6px !important;
+  padding: 7px 0 0 7px !important;
+}
+
 #page-action-buttons {
   margin-right: 0 !important;
   margin-bottom: 0 !important;
@@ -973,6 +980,33 @@ tab .tab-label {
 
 #tab-preview-panel {
   --panel-padding: 0 !important;
+}
+
+.tab-group-overflow-count-container {
+  display: none !important;
+}
+
+.tab-group-label-container {
+#tabbrowser-tabs:is([orient="horizontal"], [orient="vertical"]:not([expanded])) tab-group:not([collapsed]) > &::after,
+#tabbrowser-tabs:is([orient="horizontal"], [orient="vertical"]:not([expanded])) tab-group[hasactivetab] > &::after,
+#tabbrowser-tabs[orient="vertical"] tab-group[hasactivetab][hasmultipletabs] > &.tab-group-overflow-count-container::after {
+  content: none !important;
+}
+}
+
+.tab-group-label-container {
+&[dragtarget] {
+  position: unset !important;
+}
+
+#tabbrowser-tabs[orient="vertical"] & {
+  margin-block-start: 5px !important;
+
+tab-group:not([collapsed]) > &,
+tab-group[collapsed][hasactivetab] > & {
+  padding-block-end: 0 !important;
+}
+}
 }
 
 @media not -moz-pref("sidebar.verticalTabs") {
@@ -1912,6 +1946,12 @@ tab-group > .tabbrowser-tab,
 &[movingtab][movingtab-addToGroup]:not([movingtab-createGroup],[movingtab-ungroup]) .tabbrowser-tab:is(:active,[multiselected]) {
   margin-inline-start: 0 !important;
 }
+}
+
+#urlbar[breakout][breakout-extend], [usertyping]{
+  backdrop-filter: blur(30px) !important;
+  min-height: 50px !important;
+  border-radius: 8px !important;
 }
 
 #urlbar[breakout][breakout-extend] {
@@ -2997,6 +3037,13 @@ tab-group[collapsed] > .tab-group-label-container > & {
 
 .tabbrowser-tab[pinned] {
   width: unset !important;
+}
+
+.tabbrowser-tab {
+&[dragtarget] {
+  position: unset !important;
+  margin-bottom: -40px !important;
+}
 }
 
 .tab-background {
