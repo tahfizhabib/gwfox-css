@@ -1,36 +1,44 @@
-<picture>
-<source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/d7699474-d17b-4560-a9d6-9e1ecaac0ba5">
-<source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/90f88774-2886-4a02-aae8-6814f3199adb">
-<img width="1495" alt="01">
-</picture>
-<br><br>
+# Firefox Custom Theme (macOS & Windows)  
+*For Firefox 138+*
 
-- 本主题适用Firefox 138+ `Mac` `Win` *
+---
 
-## 使用方法
+## How to Install
 
-- 把下载的 `chrome` 文件夹放入火狐 `配置文件夹` 内
+1. **Copy Files**  
+Place the downloaded `chrome` folder into your Firefox **profile folder**.
 
-- 在 `about:config` 页面中搜索以下布尔值切换为 `true`
+2. **Change Settings**  
+Go to `about:config` in Firefox and update these preferences:
 
+- Set to `true`:
   - `toolkit.legacyUserProfileCustomizations.stylesheets`
-
   - `svg.context-properties.content.enabled`
- 
-  - `widget.windows.mica` *
- 
-  - `widget.windows.mica.toplevel-backdrop` 设为 `2` *
- 
-- 以下布尔值切换为 `false`
-  
+  - `widget.windows.mica` *(Windows only)*
+  - `widget.windows.mica.toplevel-backdrop` → set to `2` *(Windows only)*
+
+- Set to `false`:
   - `sidebar.animation.enabled`
- 
-  - `widget.macos.native-context-menus` (可选项)
+  - `widget.macos.native-context-menus` *(optional, macOS)*
 
-- 重启火狐
+3. **Restart Firefox**
 
-## 样式调整
+---
 
-- 书签工具栏隐藏至底部，地址栏置于侧栏，简洁模式，macOS样式窗口控件 * 等
+## Optional Feature
 
-  在 `about:config` 页面添加 `gwfox.plus` 布尔值设为 `true` 启用
+To enable extra style tweaks (like bottom bookmarks toolbar and sidebar address bar), create a new Boolean preference in `about:config`:
+
+- Name: `gwfox.plus`  
+- Value: `true`
+
+---
+
+## Notes
+
+- *Windows/macOS only* features are marked.  
+- Backup your Firefox profile before changing settings.
+
+---
+
+Enjoy your cleaner Firefox UI!
