@@ -9,8 +9,18 @@ Compatible with both **macOS** and **Windows**, with full Mica integration on Wi
 
 ## Installation
 
-1. Download this repository and copy the `chrome` folder.
-2. Paste the `chrome` folder into your Firefox **profile directory**.
+1. Download this repository as a ZIP or clone it.
+2. Open your Firefox **profile directory**. To find it:
+   - Go to `about:support` in the Firefox address bar.
+   - Click **"Open Folder"** next to **"Profile Directory"**.
+3. Copy the `chrome` folder and `user.js` file from this repository into your profile directory.
+   - Overwrite if prompted.
+4. Restart Firefox.
+
+> 🗂️ Your profile folder should now contain:
+> - `/chrome/userChrome.css`
+> - `/chrome/userContent.css`
+> - `user.js`
 
 ---
 
