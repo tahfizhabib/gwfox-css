@@ -1,4 +1,4 @@
-# GWFOX 🦊
+# GWFOX: Reinventing Firefox with Glass 🦊
 Lightweight, transparent, and modern Firefox UI compatible with Firefox 143+ on macOS, Linux & Windows
 
 <p align="center">
