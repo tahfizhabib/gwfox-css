@@ -12,6 +12,12 @@ Transparent Firefox theme with native blur for Windows, macOS, and Linux.
   <img src="https://github.com/rakhalfps/gwfox-css/blob/a48c59d71b99a00244582478ce7df9ab29cbfebe/Media/PREVIEW.png?raw=true" alt="GWFOX Preview" width="750">
 </p>
 
+<p align="center">
+  <a href="https://github.com/user-attachments/assets/193190a8-9bbe-4c23-818b-508e9927f636">
+    <img src="https://github.com/rakhalfps/gwfox-css/blob/a48c59d71b99a00244582478ce7df9ab29cbfebe/Media/PREVIEW.png?raw=true" alt="Watch Demo" width="750">
+  </a>
+</p>
+
 <details>
 <summary><strong>Installation</strong></summary>
 
